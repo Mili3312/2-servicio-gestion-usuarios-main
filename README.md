@@ -43,7 +43,7 @@ El microservicio de Gestión de Usuarios se centra en administrar la informació
    ```
 
 ## Configuración
-La configuración de la conexión a MongoDB se realiza en el archivo `application.properties` o `application.yml` ubicado en el directorio `src/main/resources`. Asegúrate de que tu configuración de MongoDB sea correcta:
+La configuración de la conexión a MongoDB se realiza en el archivo `application.properties` o `application.yml` ubicado en el directorio `src/main/resources`:
 ```properties
 spring.data.mongodb.uri=mongodb://localhost:27017/gestion-usuarios
 ```
